@@ -64,7 +64,7 @@ def html_to_markdown(html_file, md_file, source_directory, target_directory):
 
 source_directory = './Wiznote'
 # 输入你的目标文件夹路径
-target_directory = './科研'
+target_directory = './Obsidian'
 
 for dirpath, dirnames, filenames in os.walk(source_directory):
     for filename in filenames:
